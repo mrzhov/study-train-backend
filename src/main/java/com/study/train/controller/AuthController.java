@@ -44,7 +44,7 @@ public class AuthController {
         }
 
         if (!Objects.equals(userFormDb.getPassword(), body.getPassword())) {
-            throw new ConflictException("Пароли не совпадают");
+            throw new ConflictException("Неверный пароль");
         }
 
         return userFormDb;

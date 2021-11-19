@@ -9,31 +9,31 @@ public class Constants {
     public static final List<Map<String, String>> CITIES = new ArrayList<Map<String, String>>() {{
         add(new HashMap<String, String>() {{
             put("id", "moscow");
-            put("city", "Москва");
+            put("name", "Москва");
         }});
         add(new HashMap<String, String>() {{
             put("id", "st-petersburg");
-            put("city", "Санкт-петербург");
+            put("name", "Санкт-петербург");
         }});
         add(new HashMap<String, String>() {{
             put("id", "kazan");
-            put("city", "Казань");
+            put("name", "Казань");
         }});
         add(new HashMap<String, String>() {{
             put("id", "rostov");
-            put("city", "Ростов");
+            put("name", "Ростов");
         }});
         add(new HashMap<String, String>() {{
             put("id", "tver");
-            put("city", "Тверь");
+            put("name", "Тверь");
         }});
         add(new HashMap<String, String>() {{
             put("id", "sochi");
-            put("city", "Сочи");
+            put("name", "Сочи");
         }});
         add(new HashMap<String, String>() {{
             put("id", "omsk");
-            put("city", "Омск");
+            put("name", "Омск");
         }});
     }};
 }
